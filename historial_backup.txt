@@ -1,0 +1,1000 @@
+    5  squeue --help
+    6  squeue -l -u fgarciam
+    7  squeue -u fgarciam
+    8  scancel 1304906
+    9  scancel 1304907
+   10  scancel 1304908
+   11  gfortran Films_main.f90 -o main.exe
+   12  gfortran Films_main.f90 -o main2.exe
+   13  gfortran Films_main.f90 -o main3.exe
+   14  sbatch a.slm
+   15  sbatch ab.slm
+   16  sbatch abc.slm
+   17  squeue -A 
+   18  squeue -A ubaffb01
+   19  squeue -l -u fgarciam
+   20  sbatch a.slm
+   21  sbatch ab.slm
+   22  sbatch abc.slm
+   23  gfortran Films_main.f90 -o main3.exe
+   24  gfortran Films_main.f90 -o main.exe
+   25  gfortran Films_main.f90 -o main2.exe
+   26  sbatch a.slm
+   27  sbatch ab.slm
+   28  sbatch abc.slm
+   29  gfortran Films_main.f90 -o main2.exe
+   30  gfortran Films_main.f90 -o main.exe
+   31  gfortran Films_main.f90 -o main3.exe
+   32  sbatch a.slm
+   33  sbatch ab.slm
+   34  sbatch abc.slm
+   35  gfortran Films_main.f90 -o main3.exe
+   36  gfortran Films_main.f90 -o main.exe
+   37  gfortran Films_main.f90 -o main2.exe
+   38  sbatch a.slm
+   39  sbatch ab.slm
+   40  sbatch abc.slm
+   41  gfortran Films_main.f90 -o main4.exe
+   42  gfortran Films_main.f90 -o main.exe
+   43  gfortran Films_main.f90 -o main2.exe
+   44  gfortran Films_main.f90 -o main3.exe
+   45  gfortran Films_main.f90 -o main5.exe
+   46  gfortran Films_main.f90 -o main6.exe
+   47  sbatch a.slm
+   48  sbatch a2.slm
+   49  sbatch ab.slm
+   50  sbatch ab2.slm
+   51  sbatch abc.slm
+   52  sbatch abc2.slm
+   53  gfortran Films_main.f90 -o main7.exe
+   54  gfortran Films_main.f90 -o main8.exe
+   55  gfortran Films_main.f90 -o main9.exe
+   56  sbatch abcd.slm
+   57  sbatch abcd2.slm
+   58  sbatch abcde.slm
+   59  sbatch abcde2.slm
+   60  scancel 1306136
+   61  gfortran Films_main.f90 -o main10.exe
+   62  gfortran Films_main.f90 -o main9.exe
+   63  sbatch abcde.slm
+   64  sbatch abcde2.slm
+   65  squeue -u fgarciam
+   66  gfortran Films_main.f90 -o main.exe
+   67  gfortran Films_main.f90 -o main1.exe
+   68  gfortran Films_main.f90 -o main2.exe
+   69  gfortran Films_main.f90 -o main3.exe
+   70  gfortran Films_main.f90 -o main4.exe
+   71  gfortran Films_main.f90 -o main5.exe
+   72  gfortran Films_main.f90 -o main6.exe
+   73  gfortran Films_main.f90 -o main7.exe
+   74  gfortran Films_main.f90 -o main8.exe
+   75  gfortran Films_main.f90 -o main9.exe
+   76  gfortran Films_main.f90 -o main10.exe
+   77  sbatch a.slm
+   78  sbatch a2.slm
+   79  sbatch ab.slm
+   80  sbatch ab2.slm
+   81  sbatch abc.slm
+   82  sbatch abc2.slm
+   83  sbatch abcd.slm
+   84  sbatch abcd2.slm
+   85  sbatch abcde.slm
+   86  sbatch abcde2.slm
+   87  squeue -u fgarciam
+   88  sbatch abcde2.slm
+   89  sbatch abcde.slm
+   90  sbatch abcd2.slm
+   91  sbatch abcd.slm
+   92  squeue -u fgarciam
+   93  sbatch a.slm
+   94  sbatch a2.slm
+   95  sbatch ab.slm
+   96  sbatch ab2.slm
+   97  sbatch abc.slm
+   98  sbatch abc2.slm
+   99  sbatch abcd.slm
+  100  sbatch abcd2.slm
+  101  sbatch abcde.slm
+  102  sbatch abcde2.slm
+  103  sbatch a.slm
+  104  sbatch a2.slm
+  105  sbatch ab.slm
+  106  sbatch ab2.slm
+  107  sbatch abc.slm
+  108  sbatch abc2.slm
+  109  sbatch abcd.slm
+  110  sbatch abcd2.slm
+  111  sbatch abcde.slm
+  112  sbatch a.slm
+  113  sbatch a2.slm
+  114  sbatch ab.slm
+  115  sbatch ab2.slm
+  116  sbatch abc.slm
+  117  sbatch abc2.slm
+  118  sbatch abcd.slm
+  119  sbatch abcd2.slm
+  120  squeue -u fgarciam
+  121  squeue -u fgarciam -l
+  122  squeue -u fgarciam
+  123  sbatch abcde2.slm
+  124  sbatch abcde.slm
+  125  sbatch abcd2.slm
+  126  sbatch abcd.slm
+  127  sbatch abc2.slm
+  128  sbatch abc.slm
+  129  sbatch a.slm
+  130  sbatch a2.slm
+  131  sbatch ab.slm
+  132  sbatch ab2.slm
+  133  sbatch abc.slm
+  134  sbatch abc2.slm
+  135  scancel fgarciam
+  136  scancel 1312217
+  137  scancel 1312218
+  138  scancel 1312219
+  139  scancel 1312220
+  140  scancel 1312221
+  141  scancel 1312222
+  142  gfortran Films_main.f90 -o main.exe
+  143  gfortran Films_main.f90 -o main2.exe
+  144  gfortran Films_main.f90 -o main3.exe
+  145  gfortran Films_main.f90 -o main4.exe
+  146  gfortran Films_main.f90 -o main5.exe
+  147  gfortran Films_main.f90 -o main6.exe
+  148  gfortran Films_main.f90 -o main7.exe
+  149  gfortran Films_main.f90 -o main8.exe
+  150  gfortran Films_main.f90 -o main9.exe
+  151  gfortran Films_main.f90 -o main10.exe
+  152  gfortran Films_main.f90 -o main.exe
+  153  gfortran Films_main.f90 -o main2.exe
+  154  gfortran Films_main.f90 -o main3.exe
+  155  gfortran Films_main.f90 -o main4.exe
+  156  gfortran Films_main.f90 -o main5.exe
+  157  gfortran Films_main.f90 -o main6.exe
+  158  gfortran Films_main.f90 -o main7.exe
+  159  gfortran Films_main.f90 -o main8.exe
+  160  gfortran Films_main.f90 -o main9.exe
+  161  gfortran Films_main.f90 -o main10.exe
+  162  sbatch a.slm
+  163  sbatch a2.slm
+  164  sbatch ab.slm
+  165  sbatch ab2.slm
+  166  sbatch abc.slm
+  167  sbatch abc2.slm
+  168  sbatch a.slm
+  169  sbatch a2.slm
+  170  sbatch ab.slm
+  171  sbatch ab2.slm
+  172  sbatch abc.slm
+  173  sbatch abc2.slm
+  174  sbatch abcd.slm
+  175  sbatch abcd2.slm
+  176  sbatch abcde.slm
+  177  sbatch abcde2.slm
+  178  squeue -u fgarciam
+  179  sbatch a.slm
+  180  sbatch a2.slm
+  181  sbatch ab.slm
+  182  sbatch ab2.slm
+  183  sbatch abc.slm
+  184  sbatch abc2.slm
+  185  sbatch abcd.slm
+  186  sbatch abcd2.slm
+  187  sbatch abcde.slm
+  188  sbatch abcde2.slm
+  189  squeue -u fgarciam
+  190  sbatch a.slm
+  191  sbatch a2.slm
+  192  sbatch ab.slm
+  193  sbatch ab2.slm
+  194  sbatch abc.slm
+  195  sbatch abc2.slm
+  196  sbatch abcd.slm
+  197  sbatch abcd2.slm
+  198  sbatch abcd.slm
+  199  sbatch abcde.slm
+  200  sbatch abcde2.slm
+  201  squeue -u fgarciam
+  202  scancel 1312584
+  203  squeue -u fgarciam
+  204  gfortran Films_main.f90 -o main11.exe
+  205  gfortran Films_main.f90 -o main12.exe
+  206  gfortran Films_main.f90 -o main13.exe
+  207  gfortran Films_main.f90 -o main14.exe
+  208  gfortran Films_main.f90 -o main15.exe
+  209  gfortran Films_main.f90 -o main16.exe
+  210  gfortran Films_main.f90 -o main17.exe
+  211  gfortran Films_main.f90 -o main18.exe
+  212  gfortran Films_main.f90 -o main19.exe
+  213  gfortran Films_main.f90 -o main20.exe
+  214  gfortran Films_main.f90 -o main21.exe
+  215  gfortran Films_main.f90 -o main22.exe
+  216  gfortran Films_main.f90 -o main23.exe
+  217  gfortran Films_main.f90 -o main24.exe
+  218  gfortran Films_main.f90 -o main25.exe
+  219  gfortran Films_main.f90 -o main26.exe
+  220  gfortran Films_main.f90 -o main27.exe
+  221  gfortran Films_main.f90 -o main28.exe
+  222  gfortran Films_main.f90 -o main29.exe
+  223  gfortran Films_main.f90 -o main30.exe
+  224  sbatch a.slm
+  225  sbatch a2.slm
+  226  sbatch ab.slm
+  227  sbatch ab2.slm
+  228  sbatch abc.slm
+  229  sbatch abc2.slm
+  230  sbatch abcd.slm
+  231  sbatch abcd2.slm
+  232  sbatch abcde.slm
+  233  sbatch abcde2.slm
+  234  sbatch atris1.slm
+  235  sbatch atris2.slm
+  236  sbatch atris3.slm
+  237  sbatch atris4.slm
+  238  sbatch atris5.slm
+  239  sbatch atris6.slm
+  240  sbatch atris7.slm
+  241  sbatch atris8.slm
+  242  sbatch atris9.slm
+  243  sbatch atris10.slm
+  244  sbatch aheis1.slm
+  245  sbatch aheis2.slm
+  246  sbatch aheis3.slm
+  247  sbatch aheis4.slm
+  248  sbatch aheis5.slm
+  249  sbatch aheis6.slm
+  250  sbatch aheis7.slm
+  251  sbatch aheis8.slm
+  252  sbatch aheis9.slm
+  253  sbatch aheis10.slm
+  254  gfortran Films_main.f90 -o mainprova.exe
+  255  gfortran Films_main.f90 -04 -o mainprova1.exe
+  256  gfortran Films_main.f90 -O4 -o mainprova1.exe
+  257  sbatch aaprova.slm
+  258  sbatch aaprova1.slm
+  259  gfortran Films_main.f90 -O3 -o mainprova.exe
+  260  sbatch aaprova.slm
+  261  squeue -u fgarciam
+  262  scancel
+  263  scancel 1313057
+  264  scancel 1313058
+  265  scancel 1313059
+  266  scancel 1313060
+  267  scancel 1313061
+  268  scancel 1313062
+  269  scancel 1313063
+  270  scancel 1313064
+  271  scancel 1313065
+  272  scancel 1313066
+  273  scancel 1313067
+  274  scancel 1313068
+  275  scancel 1313069
+  276  scancel 1313070
+  277  scancel 1313071
+  278  scancel 1313072
+  279  scancel 1313073
+  280  scancel 1313074
+  281  scancel 1313075
+  282  scancel 1313076
+  283  scancel 1313077
+  284  scancel 1313078
+  285  scancel 1313079
+  286  scancel 1313080
+  287  scancel 1313081
+  288  scancel 1313082
+  289  scancel 1313083
+  290  scancel 1313084
+  291  scancel 1313085
+  292  scancel 1313086
+  293  scancel 1313087
+  294  clear
+  295  gfortran Films_main.f90 -O4 -o main.exe
+  296  gfortran Films_main.f90 -O4 -o main2.exe
+  297  gfortran Films_main.f90 -O4 -o main3.exe
+  298  gfortran Films_main.f90 -O4 -o main4.exe
+  299  gfortran Films_main.f90 -O4 -o main5.exe
+  300  gfortran Films_main.f90 -O4 -o main6.exe
+  301  gfortran Films_main.f90 -O4 -o main7.exe
+  302  gfortran Films_main.f90 -O4 -o main8.exe
+  303  gfortran Films_main.f90 -O4 -o main9.exe
+  304  gfortran Films_main.f90 -O4 -o main10.exe
+  305  gfortran Films_main.f90 -O4 -o main11.exe
+  306  gfortran Films_main.f90 -O4 -o main12.exe
+  307  gfortran Films_main.f90 -O4 -o main13.exe
+  308  gfortran Films_main.f90 -O4 -o main14.exe
+  309  gfortran Films_main.f90 -O4 -o main15.exe
+  310  gfortran Films_main.f90 -O4 -o main16.exe
+  311  gfortran Films_main.f90 -O4 -o main17.exe
+  312  gfortran Films_main.f90 -O4 -o main18.exe
+  313  gfortran Films_main.f90 -O4 -o main19.exe
+  314  gfortran Films_main.f90 -O4 -o main20.exe
+  315  gfortran Films_main.f90 -O4 -o main21.exe
+  316  gfortran Films_main.f90 -O4 -o main22.exe
+  317  gfortran Films_main.f90 -O4 -o main23.exe
+  318  gfortran Films_main.f90 -O4 -o main24.exe
+  319  gfortran Films_main.f90 -O4 -o main25.exe
+  320  gfortran Films_main.f90 -O4 -o main26.exe
+  321  gfortran Films_main.f90 -O4 -o main27.exe
+  322  gfortran Films_main.f90 -O4 -o main28.exe
+  323  gfortran Films_main.f90 -O4 -o main29.exe
+  324  gfortran Films_main.f90 -O4 -o main30.exe
+  325  sbatch a.slm
+  326  sbatch a2.slm
+  327  sbatch ab.slm
+  328  sbatch ab2.slm
+  329  sbatch abc.slm
+  330  sbatch abc2.slm
+  331  sbatch abcd.slm
+  332  sbatch abcd2.slm
+  333  sbatch abcde.slm
+  334  sbatch abcde2.slm
+  335  sbatch atris1.slm
+  336  sbatch atris2.slm
+  337  sbatch atris3.slm
+  338  sbatch atris4.slm
+  339  sbatch atris5.slm
+  340  sbatch atris6.slm
+  341  sbatch atris7.slm
+  342  sbatch atris8.slm
+  343  sbatch atris9.slm
+  344  sbatch atris10.slm
+  345  sbatch aheis1.slm
+  346  sbatch aheis2.slm
+  347  sbatch aheis3.slm
+  348  sbatch aheis4.slm
+  349  sbatch aheis5.slm
+  350  sbatch aheis6.slm
+  351  sbatch aheis7.slm
+  352  sbatch aheis8.slm
+  353  sbatch aheis9.slm
+  354  sbatch aheis10.slm
+  355  squeue -u fgarciam
+  356  squeue -u fgarciam
+  357  sbatch atris1.slm
+  358  sbatch atris2.slm
+  359  sbatch atris3.slm
+  360  sbatch atris4.slm
+  361  sbatch atris5.slm
+  362  sbatch atris6.slm
+  363  squeue -u fgarciam
+  364  sbatch atris1.slm
+  365  sbatch atris2.slm
+  366  sbatch atris3.slm
+  367  sbatch atris4.slm
+  368  sbatch atris5.slm
+  369  sbatch atris6.slm
+  370  sbatch aheis2.slm
+  371  sbatch aheis4.slm
+  372  sbatch aheis6.slm
+  373  sbatch aheis8.slm
+  374  sbatch a.slm
+  375  sbatch a2.slm
+  376  sbatch a.slm
+  377  sbatch a2.slm
+  378  sbatch ab.slm
+  379  sbatch ab2.slm
+  380  sbatch abc.slm
+  381  sbatch abc2.slm
+  382  sbatch abcd.slm
+  383  sbatch abcd2.slm
+  384  sbatch abcde.slm
+  385  sbatch abcde2.slm
+  386  sbatch aheis1.slm
+  387  sbatch aheis2.slm
+  388  sbatch aheis3.slm
+  389  sbatch aheis4.slm
+  390  sbatch aheis5.slm
+  391  sbatch aheis6.slm
+  392  sbatch aheis7.slm
+  393  sbatch aheis9.slm
+  394  sbatch aheis10.slm
+  395  squeue -u fgarciam
+  396  sbatch atris1.slm
+  397  sbatch atris2.slm
+  398  squeue -u fgarciam
+  399  sbatch aheis1.slm
+  400  sbatch aheis2.slm
+  401  sbatch aheis3.slm
+  402  sbatch aheis4.slm
+  403  sbatch aheis5.slm
+  404  squeue -u fgarciam
+  405  sbatch a.slm
+  406  sbatch a2.slm
+  407  sbatch ab.slm
+  408  sbatch ab2.slm
+  409  sbatch abc.slm
+  410  sbatch abc2.slm
+  411  sbatch abcd.slm
+  412  sbatch abcd2.slm
+  413  sbatch abcde.slm
+  414  squeue -u fgarciam
+  415  sbatch abc2.slm
+  416  sbatch abcd.slm
+  417  sbatch abcd2.slm
+  418  sbatch abcde.slm
+  419  sbatch a.slm
+  420  sbatch a2.slm
+  421  sbatch ab.slm
+  422  sbatch ab2.slm
+  423  sbatch abc.slm
+  424  sbatch aheis10.slm
+  425  squeue -u fgarciam
+  426  sbatch abc.slm
+  427  scancel fgarciam
+  428  scancel 1315011
+  429  sbatch abc2.slm
+  430  sbatch abcd.slm
+  431  sbatch abcd2.slm
+  432  sbatch abcde.slm
+  433  sbatch atris1.slm
+  434  sbatch atris2.slm
+  435  sbatch atris3.slm
+  436  sbatch atris4.slm
+  437  sbatch atris5.slm
+  438  sbatch atris6.slm
+  439  sbatch atris7.slm
+  440  sbatch atris8.slm
+  441  sbatch atris9.slm
+  442  sbatch atris10.slm
+  443  gfortran Films_main.f90 -o maintemps.exe
+  444  clear
+  445  gfortran Films_main.f90 -o maintemps.exe
+  446  squeue -fgarciam
+  447  squeue fgarciam
+  448  squeue -u fgarciam
+  449  gfortran Films_main - copia.f90 -o mainprova.exe
+  450  gfortran Films_main-copia.f90 -o mainprova.exe
+  451  gfortran Films_main_copia.f90 -o mainprova.exe
+  452  clear
+  453  gfortran Films_main_copia.f90 -o mainprova.exe
+  454  gfortran Films_main_copia.f90 -O4 -o mainprova.exe
+  455  .\mainprova.exe
+  456  \mainprova.exe
+  457  sbatch aaprova.slm
+  458  squeue -u fgarciam
+  459  gfortran Films_main_copia.f90 -O4 -o mainprova.exe
+  460  sbatch aaprova.slm
+  461  squeue -u fgarciam
+  462  gfortran Films_main.f90 -O4 main.exe
+  463  clear
+  464  gfortran Films_main.f90 -O4 -o main.exe
+  465  gfortran Films_main.f90 -O4 -o main2.exe
+  466  gfortran Films_main.f90 -O4 -o main3.exe
+  467  gfortran Films_main.f90 -O4 -o main4.exe
+  468  gfortran Films_main.f90 -O4 -o main5.exe
+  469  gfortran Films_main.f90 -O4 -o main6.exe
+  470  gfortran Films_main.f90 -O4 -o main7.exe
+  471  gfortran Films_main.f90 -O4 -o main8.exe
+  472  gfortran Films_main.f90 -O4 -o main9.exe
+  473  gfortran Films_main.f90 -O4 -o main10.exe
+  474  gfortran Films_main.f90 -O4 -o main11.exe
+  475  gfortran Films_main.f90 -O4 -o main12.exe
+  476  gfortran Films_main.f90 -O4 -o main13.exe
+  477  gfortran Films_main.f90 -O4 -o main14.exe
+  478  gfortran Films_main.f90 -O4 -o main15.exe
+  479  gfortran Films_main.f90 -O4 -o main16.exe
+  480  gfortran Films_main.f90 -O4 -o main17.exe
+  481  gfortran Films_main.f90 -O4 -o main18.exe
+  482  gfortran Films_main.f90 -O4 -o main19.exe
+  483  gfortran Films_main.f90 -O4 -o main20.exe
+  484  gfortran Films_main.f90 -O4 -o main21.exe
+  485  gfortran Films_main.f90 -O4 -o main22.exe
+  486  gfortran Films_main.f90 -O4 -o main23.exe
+  487  gfortran Films_main.f90 -O4 -o main24.exe
+  488  gfortran Films_main.f90 -O4 -o main25.exe
+  489  gfortran Films_main.f90 -O4 -o main26.exe
+  490  gfortran Films_main.f90 -O4 -o main27.exe
+  491  gfortran Films_main.f90 -O4 -o main28.exe
+  492  gfortran Films_main.f90 -O4 -o main29.exe
+  493  gfortran Films_main.f90 -O4 -o main30.exe
+  494  clear
+  495  sbatch a.slm
+  496  sbatch a2.slm
+  497  sbatch ab.slm
+  498  sbatch ab2.slm
+  499  sbatch abc.slm
+  500  sbatch abc2.slm
+  501  sbatch abcd.slm
+  502  sbatch abcd2.slm
+  503  sbatch abcde.slm
+  504  sbatch abcde2.slm
+  505  sbatch atris1.slm
+  506  sbatch atris2.slm
+  507  sbatch atris3.slm
+  508  sbatch atris4.slm
+  509  sbatch atris5.slm
+  510  sbatch atris6.slm
+  511  sbatch atris7.slm
+  512  sbatch atris8.slm
+  513  sbatch atris9.slm
+  514  sbatch atris10.slm
+  515  squeue -u fgarciam
+  516  sbatch atris1.slm
+  517  sbatch atris2.slm
+  518  sbatch atris3.slm
+  519  sbatch atris4.slm
+  520  sbatch atris5.slm
+  521  sbatch a.slm
+  522  sbatch ab.slm
+  523  sbatch abc2.slm
+  524  sbatch atris10.slm
+  525  sbatch atris9.slm
+  526  sbatch atris8.slm
+  527  sbatch ab2.slm
+  528  sbatch abc2.slm
+  529  sbatch abcd.slm
+  530  sbatch abc.slm
+  531  squeue -u fgarciam
+  532  sbatch a.slm
+  533  sbatch ab.slm
+  534  sbatch abc.slm
+  535  sbatch a2.slm
+  536  sbatch ab2.slm
+  537  sbatch abc2.slm
+  538  sbatch abcd.slm
+  539  sbatch abcd2.slm
+  540  sbatch abcde.slm
+  541  sbatch abcde2.slm
+  542  sbatch atris1.slm
+  543  sbatch atris2.slm
+  544  sbatch atris3.slm
+  545  sbatch atris4.slm
+  546  sbatch atris5.slm
+  547  sbatch atris6.slm
+  548  sbatch atris7.slm
+  549  sbatch atris8.slm
+  550  sbatch atris9.slm
+  551  sbatch atris10.slm
+  552  sbatch aheis1.slm
+  553  sbatch aheis2.slm
+  554  sbatch aheis3.slm
+  555  sbatch aheis4.slm
+  556  sbatch aheis5.slm
+  557  sbatch aheis6.slm
+  558  sbatch aheis10.slm
+  559  squeue fgarciam
+  560  squeue -u fgarciam
+  561  sbatch aheis10.slm
+  562  sbatch aheis9.slm
+  563  sbatch aheis8.slm
+  564  sbatch aheis7.slm
+  565  scancel -u fgarciam
+  566  squeue -u fgarciam
+  567  sbatch aheis7.slm
+  568  sbatch aheis8.slm
+  569  sbatch aheis9.slm
+  570  sbatch aheis10.slm
+  571  sbatch aheis1.slm
+  572  sbatch aheis2.slm
+  573  sbatch aheis3.slm
+  574  sbatch aheis4.slm
+  575  squeue -o fgarciam
+  576  squeue -u fgarciam
+  577  sbatch aheis5.slm
+  578  squeue -u fgarciam
+  579  sbatch a.slm
+  580  sbatch ab.slm
+  581  sbatch abc.slm
+  582  sbatch abcd.slm
+  583  sbatch abcde.slm
+  584  sbatch a2.slm
+  585  sbatch ab2.slm
+  586  sbatch abc2.slm
+  587  sbatch abcd2.slm
+  588  sbatch abcde2.slm
+  589  sbatch atris1.slm
+  590  sbatch atris2.slm
+  591  sbatch atris3.slm
+  592  sbatch atris4.slm
+  593  sbatch atris5.slm
+  594  sbatch atris6.slm
+  595  sbatch atris7.slm
+  596  sbatch atris8.slm
+  597  sbatch atris9.slm
+  598  sbatch atris10.slm
+  599  squeue -u fgarciam
+  600  sbatch a.slm
+  601  sbatch ab.slm
+  602  sbatch abc.slm
+  603  squeue -u fgarciam
+  604  sbatch a.slm
+  605  sbatch ab.slm
+  606  sbatch abc.slm
+  607  squeue -u fgarciam
+  608  sbatch a.slm
+  609  sbatch ab.slm
+  610  sbatch abc.slm
+  611  sbatch abc2.slm
+  612  sbatch ab2.slm
+  613  sbatch a2.slm
+  614  sbatch abcd.slm
+  615  squeue -u fgarciam
+  616  scancel -u fgarciam
+  617  squeue -u fgarciam
+  618  scancel 1317962
+  619  squeue -u fgarciam
+  620  sbatch a.slm
+  621  sbatch a2.slm
+  622  sbatch ab.slm
+  623  sbatch ab2.slm
+  624  sbatch abc.slm
+  625  sbatch abc2.slm
+  626  sbatch abcd.slm
+  627  sbatch abcd2.slm
+  628  sbatch abcde.slm
+  629  sbatch abcde2.slm
+  630  sbatch atris.slm
+  631  sbatch atris1.slm
+  632  sbatch atris2.slm
+  633  sbatch atris3.slm
+  634  squeue -u fgarciam
+  635  sbatch a.slm
+  636  sbatch a2.slm
+  637  sbatch ab.slm
+  638  sbatch ab2.slm
+  639  sbatch abc.slm
+  640  sbatch abc2.slm
+  641  sbatch abcd.slm
+  642  sbatch abcd2.slm
+  643  sbatch abcde.slm
+  644  sbatch abcde2.slm
+  645  sbatch atris1.slm
+  646  sbatch atris2.slm
+  647  sbatch atris3.slm
+  648  sbatch atris34.slm
+  649  sbatch atris4.slm
+  650  sbatch atris5.slm
+  651  sbatch atris6.slm
+  652  sbatch atris7.slm
+  653  sbatch atris8.slm
+  654  sbatch atris9.slm
+  655  sbatch atris10.slm
+  656  sbatch aheis1.slm
+  657  sbatch aheis2.slm
+  658  sbatch aheis3.slm
+  659  sbatch aheis4.slm
+  660  sbatch aheis5.slm
+  661  sbatch aheis6.slm
+  662  sbatch aheis7.slm
+  663  squeue -u fgarciam
+  664  sbatch a.slm
+  665  sbatch ab.slm
+  666  sbatch abc.slm
+  667  sbatch atris1.slm
+  668  sbatch atris2.slm
+  669  sbatch atris3.slm
+  670  sbatch atris4.slm
+  671  sbatch atris5.slm
+  672  sbatch aheis1.slm
+  673  sbatch aheis2.slm
+  674  sbatch aheis3.slm
+  675  modul avail
+  676  module avail
+  677  srun -t 100 -n 1 -t 1:00:00 
+  678  srun -t 100 -n 1 -p std --pty/bin/bash
+  679  srun -t 100 -n 1 -p std --pty /bin/bash
+  680  srun -t 100 -n 1 -p std --pty /bin/bash
+  681  srun -t 100 -n 1 -p std --pty/ bin/bash
+  682  surunsrun -t 100 -n 1 -p std --pty/ bin/bash
+  683  srun -t 100 -n 1 -p std --pty/ bin/bash
+  684  srun -t 100 -n 1 -p std --pty /bin/bash
+  685  module load conda/3
+  686  conda activate base
+  687   gfortran -O4 -o Nanotubes_main Nanotubes_main.f90
+  688  cd Ot
+  689   gfortran -O4 -o Nanotubes_main Nanotubes_main.f90
+  690   gfortran -O4 -o Nanotubes_main2 Nanotubes_main.f90
+  691  sbatch a.slm
+  692  squeue -u fgarciam
+  693  sbatch a.slm
+  694  squeue -u fgarciam
+  695  srun -t 100 -n 1 -p std --pty /bin/bash
+  696  sbatch a.slm
+  697  cd Ot
+  698  sbatch a.slm
+  699  srun -t 100 -n 1 -p std --pty /bin/bash
+  700  squeue -u fgarciam
+  701  srun -t 100 -n 1 -p std --pty /bin/bash
+  702  squeue -u fgarciam
+  703  srun -t 100 -n 1 -p std --pty /bin/bash
+  704  squeue -u fgarciam
+  705  srun -t 100 -n 1 -p std --pty /bin/bash
+  706  squeue -u fgarciam
+  707  srun -t 100 -n 1 -p std --pty /bin/bash
+  708  squeue -u fgarciam
+  709  srun -t 100 -n 1 -p std --pty /bin/bash
+  710  squeue -u fgarciam
+  711  srun -t 100 -n 1 -p std --pty /bin/bash
+  712  cd Ot
+  713  cddip
+  714  cd dip
+  715  ls
+  716  cd h_pi_3_phi_pi_8_pi
+  717  ls
+  718  srun -t 100 -n 1 -p std --pty /bin/bash
+  719  consum 
+  720  squeue -u fgarciam
+  721  squeue
+  722  squeue -u fgarciam
+  723  ls
+  724  dir
+  725  pwd
+  726  srun -t 100 -n 1 -p std --pty /bin/bash
+  727  gfortran
+  728  gfortran -O4 -o BD-MC_v13_New BD-MC_v13_New.f90
+  729  squeue
+  730  squeue -u fgarciam
+  731  scancel
+  732  scancel 129790
+  733  ls
+  734  pwd
+  735  cd ..
+  736  cd ubaffb01
+  737  ls
+  738  cd Code_Satoh/
+  739  srun -t 100 -n 1 -p std --pty /bin/bash
+  740  salloc -t 100 -n 1 -p std --pty /bin/bash
+  741  salloc --help
+  742  salloc -t 100 -n 1 -p std 
+  743  salloc --help
+  744  gfortran -O4 -o BD-MC_v13_New BD-MC_v13_New.f90
+  745  ls
+  746  ifort
+  747  if
+  748  ifx
+  749  module load intelmpi/2021.14
+  750  ifx
+  751  ifort
+  752   module load intel/2025.0
+  753  ifx
+  754  ifx -o BD-MC_v13_New BD-MC_v13_New.f90
+  755  gfortran -o BD-MC_v13_New BD-MC_v13_New.f90
+  756  pwd
+  757  cd Caca
+  758  sbatch 0.Nanotubes_array_Ddmi.slm
+  759  squeue
+  760  squeue -u fgarciam
+  761  ls
+  762  sbatch 0.Nanotubes_array_Ddmi.slm
+  763  squeue -u fgarciam
+  764  sbatch 0.Nanotubes_array_Ddmi.slm
+  765  squeue -u fgarciam
+  766  squeue -u fgarciamgfortran -O4 -o Nanotubes_main Nanotubes_main.f90
+  767  gfortran -O4 -o Nanotubes_main Nanotubes_main.f90
+  768  sbatch 0.Nanotubes_array_Ddmi.slm
+  769  squeue -u fgarciam
+  770  cd ..
+  771  cd TFMItxaso/
+  772  ls *.slm
+  773  sbatch Nanotubes_array_D.slm
+  774  squeue -u fgarciam
+  775  gfortran -O4 -o Nanotubes_main Nanotubes_main.f90
+  776  sbatch Nanotubes_array_D.slm
+  777  squeue -u fgarciam
+  778  sbatch Nanotubes_array_D.slm
+  779  squeue -u fgarciam
+  780  resum
+  781  summary
+  782  squeue -u fgarciam
+  783  summary
+  784  sbatch Nanotubes_array_D.slm
+  785  squeue -u fgarciam
+  786  sbatch Nanotubes_array_D.slm
+  787  squeue -u fgarciam
+  788  sbatch Nanotubes_array_D.slm
+  789  squeue -u fgarciam
+  790  scancel 2106568
+  791  squeue -u fgarciam
+  792  sbatch Nanotubes_array_D.slm
+  793  squeue -u fgarciam
+  794  sbatch Nanotubes_array_D.slm
+  795  scancel 2106580
+  796  squeue -u fgarciam
+  797  scancel 2106579
+  798  squeue -u fgarciam
+  799  sbatch Nanotubes_array_D.slm
+  800  squeue -u fgarciam
+  801  scancel 2106602
+  802  sbatch Nanotubes_array_D.slm
+  803  squeue -u fgarciam
+  804  ls
+  805  sbatch array_Oscar_Diam.slm
+  806  squeue
+  807  squeue --me
+  808   module avail
+  809     
+  810  ml ov
+  811  sbatch array_Oscar_Diam.slm
+  812  squeue --me
+  813  cd Caca/
+  814  sbatch Superball_Oscar_Eq.slm
+  815  squeue --me
+  816  sbatch Superball_Oscar_Eq.slm
+  817  squeue --me
+  818  cd Caca
+  819  ls
+  820  sbatch Superball_Oscar_Eq.slm
+  821  squeue --me
+  822  ls
+  823  sbatch Nanoflower_Hyst_T.slm
+  824  squeue --me
+  825  sbatch Nanoflower_Hyst_T.slm
+  826  squeue --me
+  827  sbatch Nanoflower_Hyst_T.slm
+  828  squeue --me
+  829  consum
+  830  consum -A
+  831  consum -l
+  832  consum -u benatas
+  833  consum -u operarire
+  834  consum -U
+  835  consum -l
+  836  consum -h
+  837  consum -l
+  838  squeue --me
+  839  tclsh ./oommf.tcl +platform
+  840  tclsh oommf.tcl +platform
+  841  oommf.tcl boxsi
+  842  module load oommf/2.0b0
+  843  oommf.tcl boxsi
+  844  module load gcc/8.5.0/openmpi
+  845  time oommf.tcl boxsi isolated_sk_DMI_Cnv.mif
+  846  oommf.tcl boxsi
+  847  time oommf.tcl boxsi isolated_sk_DMI_Cnv.mif
+  848  module load gcc/8.5.0/openmpi
+  849  module load oommf/2.0b0
+  850  time oommf.tcl boxsi isolated_sk_DMI_Cnv.mif
+  851  oommf.tcl boxsi isolated_sk_DMI_Cnv.mif
+  852  cd Caca
+  853  ls *.slm
+  854  sbatch Skyrmion_Oscar_Eq.slm
+  855  squeue --me
+  856  consum
+  857  ls
+  858  cd TFG_Alex/
+  859  oommf.tcl boxsi nanoflower_200nm_hueco_central_histeresis.mif 
+  860  sbatch nanoflower_200nm_hueco_central_histeresis.mif 
+  861  sbatch nanoflower_200nm_hueco_central_histeresis.mif cd ..
+  862  cd..
+  863  cd ..
+  864  ls
+  865  cd Caca/
+  866  ls
+  867  squeue --me
+  868  cd TFG_Alex/
+  869  ls
+  870  sbatch histeresi_30.slm 
+  871  squeue
+  872  squeue -u fgarciam
+  873  sbatch Realista.slm 
+  874  sbatch: error: Batch script contains DOS line breaks (\r\n)
+  875  sbatch: error: instead of expected UNIX line breaks (\n).
+  876  sbatch: error: Batch script contains DOS line breaks (\r\n)
+  877  sbatch: error: instead of expected UNIX line breaks (\n).
+  878  sbatch Realista.slm 
+  879  squeue -u fgarciam
+  880  sbatch 20nm_histeresi.slm 
+  881  squeue -u fgarciam
+  882  cd TFG_Alex/
+  883  cd HISTERESI_200/
+  884  sbatch 200nm_histeresi.slm 
+  885  cd ..
+  886  cd 0K_40/
+  887  sbatch 40nm_0K.slm 
+  888  squeue -u fgarciam
+  889  scancel
+  890  squeue -u fgarciam
+  891  scancel 2921369
+  892  cd TFG_Alex/0K_60/
+  893  sbatch 60nm_0K.slm 
+  894  cd ..
+  895  cd 0K_80/
+  896  sbatch 80nm_0K.slm 
+  897  cd ..
+  898  cd 0K_100/
+  899  sbatch 100nm_0K.slm 
+  900  squeue -u fgarciam
+  901  squeue -u fgarciam
+  902  cd TFG_Alex/0K_120/
+  903  sbatch 120nm_0K.slm 
+  904  cd ..
+  905   cd 0K_140/
+  906  sbatch 140nm_0K.slm
+  907  cd ..
+  908  cd 0K_160/
+  909  sbatch 160nm_0K.slm
+  910  cd ..
+  911  cd 0K_180/
+  912  sbatch 180nm_0K.slm 
+  913  cd TFG_Alex/HISTERESI/
+  914  cd 20
+  915  sbatch 20nm_histeresi.slm 
+  916  cd ..
+  917  cd 40
+  918  sbatch 40nm_histeresi.slm 
+  919  cd ..
+  920  cd 60
+  921  sbatch 60nm_histeresi.slm 
+  922  cd ..
+  923  cd 80
+  924  sbatch 80nm_histeresi.slm 
+  925  cd ..
+  926  cd 100
+  927  sbatch 100nm_histeresi.slm 
+  928  cd ..
+  929  cd 120
+  930  sbatch 120nm_histeresi.slm 
+  931  cd ..
+  932  cd 140
+  933  sbatch 140nm_histeresi.slm 
+  934  cd ..
+  935  cd 160
+  936  sbatch 160nm_histeresi.slm 
+  937  cd ..
+  938  cd 180
+  939  sbatch 180nm_histeresi.slm 
+  940  cd ..
+  941  cd 200
+  942  sbatch 200nm_histeresi.slm 
+  943  squeue -u fgarciam
+  944  cd TFG_Alex/HISTERESI/
+  945  cd 180/
+  946  sbatch 180nm_histeresi.slm 
+  947  cd ..
+  948  cd 200/
+  949  sbatch 200nm_histeresi.slm 
+  950  squeue -u fgarciam
+  951  sbatch 200nm_histeresi.slm 
+  952  cd ..
+  953  cd 180/
+  954  sbatch 180nm_histeresi.slm 
+  955  squeue -u fgarciam
+  956  module avail
+  957  squeue -u fgarciam
+  958  cd TFG_Alex/HISTERESI/120/
+  959  sbatch restart.slm 
+  960  squeue -u fgarciam
+  961  cd ..
+  962  cd 140/
+  963  sbatch restart.slm 
+  964  squeue -u fgarciam
+  965  cd ..
+  966  cd 160/
+  967  sbatch restart.slm 
+  968  cd ..
+  969  cd 180/
+  970  sbatch restart.slm 
+  971  cd ..
+  972  cd 2''
+  973  cd 200
+  974  sbatch restart.slm 
+  975  squeue -u fgarciam
+  976  scancel 2954900
+  977  squeue -u fgarciam
+  978  consum
+  979  consum -u 
+  980  consum --help
+  981  consum -l
+  982  consum -u jgarriga
+  983  consum -u benatas
+  984  consum
+  985  squeue -u fgarciam
+  986  squeue
+  987  squeue -me
+  988  squeue --me
+  989  ls
+  990  squeue --me
+  991  consum -u benatas
+  992  squeue --me
+  993  squeue -u fgarciam
+  994  scancel
+  995  history
+  996  ls
+  997  cd Josema
+  998  ls
+  999  cd Josema
+ 1000  ls
+ 1001  cd Josema
+ 1002  ls
+ 1003  history
+ 1004  history > ~/historial_backup.txt
