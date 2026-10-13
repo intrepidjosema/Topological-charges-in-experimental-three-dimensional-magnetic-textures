@@ -1,0 +1,54 @@
+//mumax 3.11.1 [windows_amd64 go1.22.4(gc) CUDA-12.9]
+//commit hash: ee077035
+//CPU info: Unknown, Error: exec: "wmic": executable file not found in %PATH%
+//GPU info: NVIDIA GeForce GTX 1650(4095MB), CUDA Driver 13.2, cc=7.5, using cc=75 PTX
+//OS  info: Windows OS, Hostname: DESKTOP-POJJH6E
+//Timestamp: 2026-10-12 23:14:25
+//(c) Arne Vansteenkiste, Dynamat LAB, Ghent University, Belgium
+//This is free software without any warranty. See license.txt
+//********************************************************************//
+//  If you use mumax in any work or publication,                      //
+//  we kindly ask you to cite the references in references.bib        //
+//********************************************************************//
+//output directory: .\ideal_blochpoint_regionMethod.out/
+N := 124
+setgridsize(N, N, N)
+cellsize := 2.0e-9
+setcellsize(cellsize, cellsize, cellsize)
+ext_InitGeomFromOVF("BlochPoint_R70nm_Ideal_Ellipsoid_mask.ovf")
+//resizing...
+Msat = 1.7e6
+Aex = 21e-12
+cells := sum(geom)
+Volume := cells * cellsize * cellsize * cellsize
+print("Active cells: ", cells)
+//Active cells:  179944
+print("Active volume (m^3): ", Volume)
+//Active volume (m^3):  1.4395520000000002e-21
+tableadd(E_total)
+tableadd(E_exch)
+tableadd(E_demag)
+e_densi := 0.0
+e_excha := 0.0
+e_demagn := 0.0
+tableaddvar(e_densi, "e_density", "J/m^3")
+tableaddvar(e_excha, "e_excha", "J/m^3")
+tableaddvar(e_demagn, "e_demag", "J/m^3")
+m.LoadFile("BlochPoint_R70nm_Ideal_Sphere.ovf")
+e_densi = E_total / Volume
+e_excha = E_exch / Volume
+e_demagn = E_demag / Volume
+tablesave()
+saveas(m, "m_unrelaxed_regionMethod")
+minimize()
+e_densi = E_total / Volume
+e_excha = E_exch / Volume
+e_demagn = E_demag / Volume
+tablesave()
+saveas(m, "m_relaxed_regionMethod")
+//********************************************************************//
+//Please cite the following references, relevant for your simulation. //
+//See bibtex file in output folder for justification.                 //
+//********************************************************************//
+//   * Exl et al., J. Appl. Phys. 115, 17D118 (2014).
+//   * Vansteenkiste et al., AIP Adv. 4, 107133 (2014).

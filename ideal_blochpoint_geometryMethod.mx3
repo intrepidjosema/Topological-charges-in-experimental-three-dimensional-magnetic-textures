@@ -1,0 +1,74 @@
+// -------------------------------
+// UNIFORM SPHERE
+// -------------------------------
+N := 124
+setgridsize(N,N,N)
+
+cellsize := 2.0e-9
+setcellsize(cellsize,cellsize,cellsize)
+
+// -------------------------------
+// MATERIAL
+// -------------------------------
+// Tejo and Heredero, 11/2021, parameters
+Msat = 1.7e6
+Aex  = 21e-12
+
+// -------------------------------
+// GEOMETRY
+// -------------------------------
+
+// Setting diameter=2*R=70nm
+setgeom(ellipsoid(140e-9, 140e-9, 140e-9))
+
+cells := sum(geom)
+
+Volume := cells * cellsize * cellsize * cellsize
+
+
+
+// -------------------------------
+// TABLE
+// -------------------------------
+
+tableadd(E_total)
+tableadd(E_exch)
+tableadd(E_demag)
+// tableadd(E_anis)
+
+e_densi  := 0.0
+e_excha := 0.0
+e_demagn := 0.0
+// e_aniso := 0.0
+tableaddvar(e_densi, "e_density", "J/m^3")
+tableaddvar(e_excha, "e_excha", "J/m^3")
+tableaddvar(e_demagn, "e_demag", "J/m^3")
+// tableaddvar(e_aniso, "e_aniso", "J/m^3")
+
+// -------------------------------
+// INITIAL STATE: RADIAL HEDGEHOG WITH STABLE CORE (gamma = 1.823 rad)
+// from .ovf file created with python
+// -------------------------------
+
+m.LoadFile("BlochPoint_R70nm_Ideal_Sphere.ovf")
+
+// INITIAL NON-RELAXED STATE: Save 1st row (Analytic Ground Truth)
+
+e_densi = E_total / Volume
+e_excha = E_exch / Volume
+e_demagn = E_demag / Volume
+// e_aniso = E_aniso / Volume
+tablesave()
+saveas(m, "m_unrelaxed_geometryMethod")
+
+// RELAXED STATE: Save 2nd row, physical, relaxed state
+minimize()
+
+
+e_densi = E_total / Volume
+e_excha = E_exch / Volume
+e_demagn = E_demag / Volume
+// e_aniso = E_aniso / Volume
+tablesave()
+saveas(m, "m_relaxed_geometryMethod")
+
